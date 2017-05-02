@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+input[type="text"],
+input[type="email"],
+select[name="都道府県"],
+.mwform-tel-field input[type="text"],
+.mwform-zip-field input[type="text"] {
+    height: 44px;
+}
+
+.mw_wp_form .area-btn input[type="button"],
+.mw_wp_form .area-btn input[type="reset"],
+.mw_wp_form .area-btn input[type="submit"] {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.mw_wp_form .mwform-tel-field input[type="text"] {
+    width: 29.8%;
+}

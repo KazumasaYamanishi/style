@@ -1,0 +1,68 @@
+@charset "utf-8";
+html {
+    word-wrap: break-word;
+    word-break: break-all;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: var(--font-size);
+    color: var(--color-base);
+    line-height: var(--lineheight);
+}
+
+body {
+    color: var(--color-base);
+    font-size: var(--font-size);
+    font-family: Lato, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    letter-spacing: .05em;
+    line-height: var(--lineheight);
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    transition: .3s;
+    color: var(--color-primary);
+}
+
+a:hover,
+a:active,
+a:focus {
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+
+a img {
+    outline: none;
+    border: none;
+    -webkit-transition: opacity .3s, -webkit-transform .3s;
+    transition: opacity .3s, transform .3s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width/***/: auto;
+    vertical-align: middle;
+}
+
+th,
+td {
+    vertical-align: middle;
+}
+
+th > *:last-child,
+td > *:last-child {
+    margin-bottom: 0;
+}
+
+
+
+figure {
+    margin-bottom: 10px;
+}
+
+dd {
+    padding-left: 1em;
+}

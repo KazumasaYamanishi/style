@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+:root {
+	--font-size: 16px;
+	--font-size-h1: 2.1428571428571rem; /*** 34px ***/
+	--font-size-h2: 1.7142857142857rem; /*** 27px ***/
+	--font-size-h3: 1.2857142857143rem; /*** 21px ***/
+	--font-size-h4: 1.1428571428571rem; /*** 18px ***/
+	--font-size-h5: 1rem;
+	--font-size-h6: 1rem;
+	--color-primary: #545454;
+	--color-base: #545454;
+	--lineheight: 1.84;
+	--margin-base: 2.75rem;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*** 列幅を自動レイアウトにする（初期値） ***/
+
+.tbl-fix-auto {
+    table-layout: auto;
+}
+
+
+/*** 2カラム ***/
+
+.tbl-2column {
+    /*table-layout: fixed;*/
+}
+
+.tbl-2column > tbody > tr,
+.tbl-2column > tbody > tr > th,
+.tbl-2column > tbody > tr > td {
+    display: block;
+}
+
+.tbl-2column > tbody > tr > th,
+.tbl-2column > tbody > tr > td {
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.tbl-2column > tbody > tr > th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+
+
+/*** 2カラム th 7em ***/
+
+.tbl-th-7 > tbody > tr > th {
+    width: 7em;
+}
+
+
+/*** 2カラム th 9em ***/
+
+.tbl-th-9 > tbody > tr > th {
+    width: 9em;
+}
+
+
+/*** border-bottom ***/
+
+.tbl-bdr-btm {
+    border-bottom: 1px solid #ddd;
+}
+
+p.tbl-bdr-btm {
+    padding-bottom: 10px;
+}
+
+
+/*** th vertical-align: middle; ***/
+
+.tbl-th-middle > tbody > tr > th {
+    vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    .tbl-2column > tbody > tr {
+        display: table-row;
+    }
+    .tbl-2column > tbody > tr > th,
+    .tbl-2column > tbody > tr > td {
+        display: table-cell;
+    }
+}

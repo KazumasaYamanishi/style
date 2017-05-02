@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+h1, h2, h3, h4, h5, h6, caption {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+h4,
+caption,
+.lead {
+    margin-top: 1.7142857142857em;
+    font-size: var(--font-size-h4);
+}
+
+h5 {
+    font-size: var(--font-size-h5);
+}
+
+h6 {
+    font-size: var(--font-size-h6);
+}
+
+caption {
+    color: var(--color-base);
+}
+
+.ttl-page {
+    margin: 0;
+    padding: 1.6em 0 1.2em;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.ttl-l-section {
+    margin: 0 0 1.8333333333333em;
+    text-align: center;
+}
+
+.ttl-number {
+    position: relative;
+    padding-left: 62px;
+    text-align: justify;
+}
+
+.ttl-number::before {
+    counter-increment: number 1;
+    content: counter(number) "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 58px;
+    height: 50px;
+    color: var(--color-primary);
+    font-size: 2em;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+}
