@@ -6,7 +6,6 @@ html {
     -webkit-text-size-adjust: 100%;
     font-size: var(--font-size);
     color: var(--color-base);
-    line-height: var(--lineheight);
 }
 
 body {
@@ -14,7 +13,6 @@ body {
     font-size: var(--font-size);
     font-family: Lato, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     letter-spacing: .05em;
-    line-height: var(--lineheight);
 }
 
 a {
