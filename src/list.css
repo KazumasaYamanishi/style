@@ -1,1 +1,23 @@
 @charset "utf-8";
+
+/*** 丸 ***/
+
+.list-circle {
+    padding-left: 1em;
+    list-style: none;
+    text-indent: -1em;
+}
+
+.list-circle li {
+    margin-bottom: 4px;
+}
+
+.list-circle li:before {
+    content: '\f1db';
+    font-family: 'Fontawesome';
+}
+
+.list-circle-black li:before {
+    content: '\f111';
+    font-family: 'Fontawesome';
+}

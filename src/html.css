@@ -2,11 +2,7 @@
 html {
     word-wrap: break-word;
     word-break: break-all;
-    /*** モバイルでのフォントの自動拡大をしない ***/
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+    font-size: var(--font-size-base);
 }
 
 body {
