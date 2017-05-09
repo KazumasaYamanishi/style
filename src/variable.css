@@ -1,14 +1,51 @@
 @charset "utf-8";
 
 :root {
-	--font-size: 16px;
-	--font-size-h1: 2.1428571428571rem; /*** 34px ***/
-	--font-size-h2: 1.7142857142857rem; /*** 27px ***/
-	--font-size-h3: 1.2857142857143rem; /*** 21px ***/
-	--font-size-h4: 1.1428571428571rem; /*** 18px ***/
-	--font-size-h5: 1rem;
-	--font-size-h6: 1rem;
-	--color-primary: #545454;
-	--color-base: #545454;
-	--margin-base: 2.75rem;
+
 }
+
+
+
+/***
+	Bootstrap Customize（http://getbootstrap.com/customize/）で設定するもの
+		- カラー
+			@gray-base
+			@brand-primary
+			@brand-success
+			@brand-info
+			@brand-warning
+			@brand-danger
+			@body-bg
+		- リンク
+			@link-hover-decoration
+		- Typography
+			@font-family-sans-serif
+			@font-size-base
+			@font-size-large
+			@font-size-small
+			@font-size-h1
+			@font-size-h2
+			@font-size-h3
+			@font-size-h4
+			@font-size-h5
+			@font-size-h6
+			@line-height-base
+			@headings-font-weight
+			@headings-line-height
+		- Components
+			@border-radius-base
+			@border-radius-large
+			@border-radius-small
+		- Tables
+			@table-border-color
+		- Media queries breakpoints
+			@screen-lg
+		- Grid system
+			@grid-gutter-width
+		- Container sizes
+			@container-tablet
+			@container-desktop
+			@container-large-desktop
+		- Pagination, Pager, Breadcrumbs
+			全部
+***/
