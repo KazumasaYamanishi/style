@@ -5,28 +5,7 @@
     margin-bottom: var(--margin-base);
 }
 
-.btn {
-    border-radius: 2px;
-}
-
 .btn:active:focus,
 .btn:focus {
-    outline: none;
-}
-
-.btn-primary {
-    background-color: var(--color-primary);
-    border: 1px solid color(var(--color-primary) l(95%));
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: color(var(--color-primary) l(95%));
-    border: 1px solid color(var(--color-primary) l(90%));
-}
-
-.btn-primary:active:focus,
-.btn-primary:active:hover {
-    background-color: color(var(--color-primary) l(90%));
-    border: 1px solid color(var(--color-primary) l(85%));
+    /*outline: none;*/
 }

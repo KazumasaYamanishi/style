@@ -2,32 +2,28 @@
 html {
     word-wrap: break-word;
     word-break: break-all;
-    -ms-text-size-adjust: 100%;
+    /*** モバイルでのフォントの自動拡大をしない ***/
     -webkit-text-size-adjust: 100%;
-    font-size: var(--font-size);
-    color: var(--color-base);
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
-    color: var(--color-base);
-    font-size: var(--font-size);
-    font-family: Lato, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     letter-spacing: .05em;
 }
 
 a {
     position: relative;
-    text-decoration: none;
     outline: none;
     transition: .3s;
-    color: var(--color-primary);
 }
 
 a:hover,
 a:active,
 a:focus {
     border: none;
-    text-decoration: none;
+    /*text-decoration: none;*/
     outline: none;
 }
 

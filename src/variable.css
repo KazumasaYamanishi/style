@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 :root {
-
+	--color-primary: #000;
+	--margin-base: 2.75rem;
 }
 
 
