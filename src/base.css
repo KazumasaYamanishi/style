@@ -5,6 +5,7 @@
 /*** 基本的な要素 ***/
 @import "html.css";
 @import "bootstrap.css";
+@import "layout.css";
 /*** フレックスボックス ***/
 @import "flexbox.css";
 /*** マージン・パディング ***/
@@ -45,6 +46,8 @@
 @import "hero.css";
 /*** スライダー ***/
 @import "slider.css";
+/*** その他モジュール ***/
+@import "module.css";
 /*** ユーティリティ ***/
 @import "utility.css";
 /*** 各ページ ***/
