@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.mod-column {
+    margin-top: var(--margin-base);
+    padding: 1rem;
+    /*border-radius: 6px;*/
+}
+
+.mod-column > *:first-child {
+    margin-top: 0;
+}
+
+.mod-column > *:last-child {
+    margin-bottom: 0;
+}
+
+.mod-column .ttl-column {
+    color: #fff;
+}
+
+.mod-column-orange {
+    background-color: rgba(245, 130, 32, .65);
+}
