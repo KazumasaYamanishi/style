@@ -34,14 +34,14 @@
 /*** テキスト ***/
 
 .txt-primary {
-    /*color: var(--color-primary);*/
+    color: var(--color-primary);
 }
 
 
 /*** 背景色 ***/
 
 .bg-primary {
-    /*background-color: var(--color-primary);*/
+    background-color: var(--color-primary);
 }
 
 .bg-primary-light {
