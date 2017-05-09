@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+/*** Google Maps ***/
+
+.googlemap {
+    height: 350px;
+}
+
 /*** ページ内リンク ***/
 
 .u-page-link {}
