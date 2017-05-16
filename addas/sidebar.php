@@ -61,8 +61,8 @@
 
 
 <?php endif; ?>
-<div class="l-widget">
+<!--<div class="l-widget">
 	<ul>
 		<?php dynamic_sidebar( 'side-widget' ); ?>
 	</ul>
-</div>
+</div>-->

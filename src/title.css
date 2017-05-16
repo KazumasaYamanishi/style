@@ -1,5 +1,20 @@
 @charset "utf-8";
 
+.ttl-l-section {
+    margin: 0 0 2.4em;
+    font-size: 1.25rem;
+}
+
+.ttl-middle {
+    margin: 2.6666666666667em 0 1.3333333333333em;
+    font-size: 1.125rem;
+}
+
+.ttl-small {
+    margin: 3em 0 1.5em;
+    font-size: 1rem;
+}
+
 caption {
     line-height: 1.2;
 }
@@ -7,18 +22,6 @@ caption {
 caption,
 .lead {
     margin-top: 1.7142857142857em;
-    font-size: var(--font-size-h4);
-}
-
-.ttl-page {
-    margin: 0;
-    padding: 1.6em 0 1.2em;
-    text-align: center;
-}
-
-.ttl-l-section {
-    margin: 0 0 1.8333333333333em;
-    text-align: center;
 }
 
 .ttl-number {

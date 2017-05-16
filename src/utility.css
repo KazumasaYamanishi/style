@@ -22,14 +22,6 @@
     border-color: var(--color-primary);
 }
 
-
-/*** スマホ時ウィンドウ100% ***/
-
-.sp-w-full {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-
 /*** 背景色 ***/
 
 .bg-primary-light {
@@ -74,11 +66,4 @@
 
 .neon {
     background: linear-gradient(transparent 40%, #ffff66 40%);
-}
-
-@media (min-width: 768px) {
-    .sp-w-full {
-        margin-left: 0;
-        margin-right: 0;
-    }
 }

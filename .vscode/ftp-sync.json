@@ -1,0 +1,26 @@
+{
+    "remotePath": "/home/addas/www/template/wp-content/themes",
+    "host": "addas.sakura.ne.jp",
+    "username": "addas",
+    "password": "4ywst3fy57",
+    "port": 22,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\node_modules",
+        "\\src"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}

@@ -21,3 +21,26 @@
 .mod-column-orange {
     background-color: rgba(245, 130, 32, .65);
 }
+
+/* ==================================================
+**  Go to Top
+================================================== */
+
+#toPageTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 9999;
+    text-indent: -9999em;
+}
+
+#toPageTop a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/totop.png) 0 0 no-repeat;
+}
+
+#toPageTop a:hover {
+    background: url(../img/totop.png) 0 -50px no-repeat;
+}

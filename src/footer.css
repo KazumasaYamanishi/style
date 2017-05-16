@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+#l-footer {
+	margin-top: 6.25rem;
+}
+
+#l-footer .area-copy {
+	background-color: #e6e6e6;
+}
+
 #l-footer .copy {
     margin-bottom: 0;
+    padding: 1.625rem 0;
 }

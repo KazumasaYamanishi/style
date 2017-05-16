@@ -3,10 +3,13 @@ html {
     word-wrap: break-word;
     word-break: break-all;
     font-size: var(--font-size-base);
+    font-feature-settings : "palt" 1;
 }
 
 body {
-    letter-spacing: .05em;
+    letter-spacing: .075em;
+    font-weight: 500;
+    font-feature-settings : "palt" 1;
 }
 
 a {

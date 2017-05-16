@@ -276,19 +276,20 @@
 		if (!function_exists('wp_pagenavi')) {
 			return null;
 		}
-		$class[] = "pagination"; // Set Main Class
+		// $class[] = "pagination"; // Set Main Class
 		// Pagination Size Class
-		if (!$size) {
-			$size = '';
-		}
-		$class[] = (!$size) ? '' : "pagination-" . $size;
+		// if (!$size) {
+		// 	$size = '';
+		// }
+		// $class[] = (!$size) ? '' : "pagination-" . $size;
 		// Pagination Position, default LEFT
-		if (!$position) {
-			$position = 'left';
-		}
-		$class[] = "pagination-" . $position;
+		// if (!$position) {
+		// 	$position = 'left';
+		// }
+		// $class[] = "pagination-" . $position;
 		// Set Before & After Output
-		$before = "<div class=\"" . implode(" ", $class) . "\"><ul class='pagination'>";
+		// $before = "<div class=\"" . implode(" ", $class) . "\"><ul class='pagination'>";
+        $before = "<div class=\"navigation\"><ul class='pagination'>";
 		$after = "</ul></div>";
 		// Build Args
 		$args = array(

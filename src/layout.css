@@ -4,19 +4,33 @@
     overflow: hidden;
 }
 
-.l-section + .l-section {
-    margin-top: var(--margin-base);
+/* 	ページタイトル
+** ------------------------------ */
+#l-page {
+	background-color: #f5f5f5;
 }
 
+#l-page .ttl-page {
+	margin: 0;
+	padding: 1.425em 0;
+	text-align: center;
+}
+
+.l-section + .l-section,
 #l-side {
+    /*margin-top: calc(var(--margin-base) / 2);*/
     margin-top: var(--margin-base);
 }
 
 @media (min-width: 768px) {
+	#l-page .ttl-page {
+		padding: 1.8em 0;
+	}
     #l-main {
         padding-bottom: 88px;
     }
+    /*.l-section + .l-section,
     #l-side {
-        margin-top: 30px;
-    }
+        margin-top: var(--margin-base);
+    }*/
 }

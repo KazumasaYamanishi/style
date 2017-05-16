@@ -1,1 +1,22 @@
 @charset "utf-8";
+
+/*** スマホ時ウィンドウ100% ***/
+
+.sp-w-full {
+	margin: 0 var(--container-padding) 1.5rem;
+}
+
+.sp-w-full + .sp-w-full {
+	margin-top: -.75rem;
+}
+
+.ttl-l-section + .sp-w-full {
+	margin-top: -1.5rem;
+}
+
+@media (min-width: 768px) {
+    .sp-w-full {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
